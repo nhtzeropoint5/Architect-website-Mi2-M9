@@ -27,6 +27,11 @@ main > section{
     margin-top: 130px;
 
 }
+
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 /* individual style */
 
 .nav-items{
@@ -92,13 +97,32 @@ main > section{
 .our-features h3{
     font-size: 3rem;
 }
+.our-features p{
+     font-size: 1rem;
+     line-height: 26px;
+     margin-bottom: 34px;
+}
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, .nav-links, .teams{
         flex-direction: column;
+       
+
     }
     .banner-content h1{
     font-weight: 800;
     font-size: 2.5rem;}
+
+    .teams{
+        text-align: center;
+         gap: 20px;
+    }
+    main > section{
+    margin-top: 60px;
+
+}
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
 }
